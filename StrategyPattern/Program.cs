@@ -9,6 +9,11 @@ namespace StrategyPattern
         {
             Console.WriteLine("Strategy Pattern!");
 
+            /*
+                Strategy Pattern defines a family of algorithms encapsulates each one, and makes them interchangeable.
+                Stretegy lets the algorithm vary independently from clients that use it.              
+            */
+
             var duck = new Duck();
             duck.Display();
             duck.PerformFly();
