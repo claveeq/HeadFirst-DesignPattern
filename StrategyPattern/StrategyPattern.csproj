@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Ducks\" />
+    <Folder Include="Ducks\Behavior\" />
+    <Folder Include="Ducks\Behavior\FlyBehavior\" />
+    <Folder Include="Ducks\Behavior\QuackBehavior\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Ducks\Behavior\MallardDuck.cs" />
+    <Compile Remove="Ducks\Behavior\MallardDuck.cs" />
+  </ItemGroup>
+</Project>

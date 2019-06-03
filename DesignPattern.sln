@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern", "DesignPattern\DesignPattern.csproj", "{597969DA-D7D2-48C8-AE07-1C1EDB038D2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPattern", "StrategyPattern\StrategyPattern.csproj", "{72BEBC95-C4B8-441E-BADF-6E4C2E4C537A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{597969DA-D7D2-48C8-AE07-1C1EDB038D2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{597969DA-D7D2-48C8-AE07-1C1EDB038D2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{597969DA-D7D2-48C8-AE07-1C1EDB038D2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{597969DA-D7D2-48C8-AE07-1C1EDB038D2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72BEBC95-C4B8-441E-BADF-6E4C2E4C537A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72BEBC95-C4B8-441E-BADF-6E4C2E4C537A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72BEBC95-C4B8-441E-BADF-6E4C2E4C537A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72BEBC95-C4B8-441E-BADF-6E4C2E4C537A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
