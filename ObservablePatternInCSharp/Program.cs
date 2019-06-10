@@ -1,4 +1,5 @@
 ﻿using System;
+using ObservablePattern;
 
 namespace ObservablePatternInCSharp
 {
@@ -6,7 +7,15 @@ namespace ObservablePatternInCSharp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            WeatherData weatherData = new WeatherData();
+            CurrentConditionsDisplay currentDisplay = new CurrentConditionsDisplay();
+            currentDisplay.Subscribe(weatherData);
+
+            weatherData.SetMeasurements(new Data());
+
+            weatherData.SetMeasurements(new Data { Temperature = 80, Humidity = 65, Pressure = 40.4f });
+
+            weatherData.NotifyObservers();
         }
     }
 }
